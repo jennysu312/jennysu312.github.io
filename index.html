@@ -1,42 +1,37 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="zh-hant">
 
 <head>
-	<meta name="generator" content="Hugo 0.85.0">
-  <meta charset="utf-8">
-  <title>Port Hugo</title>
+ 	<meta charset="utf-8">
+  	<title>Jenny Su | Portfolio</title>
 
-  <!-- mobile responsive meta -->
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Personal Portfolio">
+  	<!-- mobile responsive meta -->
+  	<meta name="viewport" content="width=device-width, initial-scale=1">
+  	<meta name="robots" content="all">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  	<meta name="description" content="Jenny Su's Portfolio">
+  	<meta name="keywords" content="Jenny su, 蘇怡甄, Portfolio, 作品集">
+    <meta name="author" content="Jeny Su">
+    <meta name="generator" content="Hugo 0.85.0">
+    
+    <meta property="og:title" content="Jenny Su | Protfolio">
+    <meta property="og:description" content="Jenny Su's Portfolio">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://jennysu312.github.io/">
   
-    <meta name="author" content="Burton Guster">
-  
-
-  <!-- plugins -->
-  
+  	<!-- plugins -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-  
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css">
-  
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.1.0/css/hover-min.css">
-  
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Rubik:300,400,500,700,900&amp;display=swap">
-  
     <link rel="stylesheet" href="css/text-animation.css">
-  
     <link rel="stylesheet" href="css/hugrid.css">
   
+  	<!-- Main Stylesheet -->
+  	<link rel="stylesheet" href="css/style.css" media="screen">
 
-  <!-- Main Stylesheet -->
-
-  
-  <link rel="stylesheet" href="css/style.css" media="screen">
-
-  <!--Favicon-->
-
-  
-    <link rel="icon" type="image/png" href="../../../Desktop/CANMORE WEB/canmore web/images/favicon.png">
+  	<!--Favicon-->
+    <link rel="icon" type="image/png" href="../jennysu312.github.io/images/favicon.jpg">
   
   
     <script async="" src="https://www.googletagmanager.com/gtag/js?id=G-ABCDEFG123"></script>
@@ -47,8 +42,7 @@
 
       gtag('config', 'G-ABCDEFG123');
     </script>
-  
-	<style shopback-extension-v6-6-6="" data-styled-version="4.2.0"></style>
+    
 </head>
 
 <!--<head>-->
@@ -101,19 +95,19 @@
 -->
 <!--</head>-->
 
-<body> <!-- preloader start -->
+<body> 
+
+<!-- preloader start -->
 <div class="preloader" style="display: none;">
-  
-  <img src="/images/preloader.gif" alt="preloader">
-  
+  <img src="images/preloader.gif" alt="preloader">
 </div>
 <!-- preloader end --> 
+
 <section class="menu menu-fix" id="menu">
   <nav>
-    
     <div class="menu-container">
       <div class="desktop-menu-logo">
-        <a href="/"><img class="img-fluid" src="/images/logo.svg" alt="Port Hugo" id="desktop-logo"></a>
+        <a href="/"><img class="img-fluid" src="../jennysu312.github.io/images/logo.png" id="desktop-logo"></a>
       </div>
       <ul class="desktop-menu list-inline mb-0" id="desktop-menu">
         
@@ -140,7 +134,7 @@
           </a>
         </div>
         <div class="mobile-menu-logo">
-          <a href="/"><img class="img-fluid" src="/images/logo-dark.svg" alt="Port Hugo"></a>
+          <a href="/"><img class="img-fluid" src="../jennysu312.github.io/images/logo.png" alt="Port Hugo"></a>
         </div>
         <div class="menu-slider">
           <nav>
@@ -396,46 +390,142 @@
 </div>
 </section>
 <!--------------------------------------------------------->
-<section class="portfolio" id="portfolio">
-  <div class="container-fluid text-center">
+<section class="portfolio " id="portfolio">
+  <div class="container text-center">
     <div class="row portfolio-holder">
-      <div class="col-sm-12">
-        <div class="title">
+      <div class="col-12 text-center">
+        <div class="title wow fadeInUp" data-wow-duration="1.5s" style="visibility: visible; animation-duration: 1.5s; animation-name: fadeInUp;">
           <h3 class="title-back">PORTFOLIO</h3>
           <h3 class="title-front">PORTFOLIO</h3>
         </div>
+		<div class="filtering wow fadeInUp" data-wow-duration="1.5s" style="visibility: visible; animation-duration: 1.5s; animation-name: fadeInUp;">
+          <div class="btn-group btn-group-toggle portfolio-navigation" data-toggle="buttons">
+            <label class="btn btn-sm btn-primary active hvr-sweep-to-right">
+              <input type="radio" name="shuffle-filter" value="all" checked="checked">All
+            </label>
+            
+            <label class="btn btn-sm btn-primary hvr-sweep-to-right">
+              <input type="radio" name="shuffle-filter" value="web">Web
+            </label>
+            
+            <label class="btn btn-sm btn-primary hvr-sweep-to-right">
+              <input type="radio" name="shuffle-filter" value="productpage">Product Page
+            </label>
+            
+            <label class="btn btn-sm btn-primary hvr-sweep-to-right">
+              <input type="radio" name="shuffle-filter" value="graphic">Graphic
+            </label>
+            
+            <label class="btn btn-sm btn-primary hvr-sweep-to-right">
+              <input type="radio" name="shuffle-filter" value="display">Display
+            </label>
+            
+          </div>
+        </div>
       </div>
-	  <ul id="og-grid" class="og-grid">
-            
-        <li>
-          <p id="description-hugo" class="hidden">
-            Commodo non mollit commodo esse. Quis ad Lorem eiusmod ad velit Lorem sint elit. Anim magna duis et duis pariatur eiusmod laboris esse. Sit duis labore sit esse enim laborum nisi sunt magna sint labore tempor. Sit sit sint eu laboris officia et sunt consequat sit excepteur nostrud eu. Fugiat aliqua id et pariatur quis commodo aute aliqua et magna officia eu cillum mollit. Sint culpa excepteur culpa culpa sint est eu dolore culpa duis adipisicing proident.
-          </p>
-          <a href="https://gohugo.io" data-largesrc="/images/portfolio/hugo_huf751e52a98abc43cadcc772acb69f9f5_81161_780x500_fill_q75_bgffffff_box_smart1_2.jpg" data-title="Hugo" data-buttontext="SEE SITE">
-            <img src="/images/portfolio/hugo_huf751e52a98abc43cadcc772acb69f9f5_81161_395x250_fill_q75_bgffffff_box_smart1_2.jpg" alt="Hugo image">
-          </a>
-        </li>
-            
-        <li>
-          <p id="description-hugo-themes" class="hidden">
-            Commodo non mollit commodo esse. Quis ad Lorem eiusmod ad velit Lorem sint elit. Anim magna duis et duis pariatur eiusmod laboris esse. Sit duis labore sit esse enim laborum nisi sunt magna sint labore tempor. Sit sit sint eu laboris officia et sunt consequat sit excepteur nostrud eu. Fugiat aliqua id et pariatur quis commodo aute aliqua et magna officia eu cillum mollit. Sint culpa excepteur culpa culpa sint est eu dolore culpa duis adipisicing proident.
-          </p>
-          <a href="https://gohugo.io" data-largesrc="/images/portfolio/hugothemes_huf3bb2470b5aa31b2353f2910854c4e8c_321843_780x500_fill_q75_bgffffff_box_smart1_2.jpg" data-title="Hugo Themes" data-buttontext="SEE SITE">
-            <img src="/images/portfolio/hugothemes_huf3bb2470b5aa31b2353f2910854c4e8c_321843_395x250_fill_q75_bgffffff_box_smart1_2.jpg" alt="Hugo Themes image">
-          </a>
-        </li>
-            
-        <li>
-          <p id="description-just-a-design" class="hidden">
-            Commodo non mollit commodo esse. Quis ad Lorem eiusmod ad velit Lorem sint elit. Anim magna duis et duis pariatur eiusmod laboris esse. Sit duis labore sit esse enim laborum nisi sunt magna sint labore tempor. Sit sit sint eu laboris officia et sunt consequat sit excepteur nostrud eu. Fugiat aliqua id et pariatur quis commodo aute aliqua et magna officia eu cillum mollit. Sint culpa excepteur culpa culpa sint est eu dolore culpa duis adipisicing proident.
-          </p>
-          <a href="" data-largesrc="/images/portfolio/design_hu5fa725ac233dae90ee8aba7fdae11879_1058947_780x500_fill_q75_bgffffff_box_smart1_2.jpg" data-title="Just A Design" data-buttontext="SEE SITE">
-            <img src="/images/portfolio/design_hu5fa725ac233dae90ee8aba7fdae11879_1058947_395x250_fill_q75_bgffffff_box_smart1_2.jpg" alt="Just A Design image">
-          </a>
-        </li>
-        
-      </ul>
-    </div>
+      <!--------------------------------------------------------->
+      <div class="col-12">
+      	<div class="row">
+		  <div class="col-lg-4 col-md-6 col-sm-6 col-12 filtr-item">
+			<div class="item-holder">
+				<a class="text-white" href="https://vickycheng0606.github.io/portfolio/project-24/">
+				  <img src="../jennysu312.github.io/images/Canmore-cover-1.jpg" alt="canmore-web">
+			      <div class="item-hover flex">
+                    <div>
+                      <h2 class="mt-2">Canmore Website</h2>
+                      <p class="mb-0 text-light">Photoshop</p>
+			      	  <p class="mb-0 text-light">Illustrator</p>
+			      	  <p class="mb-0 text-light">Adobe XD</p>
+			      	  <p class="mb-0 text-light">Dreamweaver</p>
+                    </div>
+		      	  </div>
+			    </a>
+			</div>
+		  </div>
+    	  <!--------------------------------------------------------->
+     	  <div class="col-lg-4 col-md-6 col-sm-6 col-12 filtr-item">
+			<div class="item-holder">
+				<a class="text-white" href="https://vickycheng0606.github.io/portfolio/project-24/">
+				  <img src="../jennysu312.github.io/images/TSKY-cover-1.jpg" alt="tsky-web">
+			      <div class="item-hover flex">
+                    <div>
+                      <h2 class="mt-2">TSKY Website</h2>
+                      <p class="mb-0 text-light">Photoshop</p>
+			      	  <p class="mb-0 text-light">Illustrator</p>
+			      	  <p class="mb-0 text-light">Adobe XD</p>
+			      	  <p class="mb-0 text-light">Dreamweaver</p>
+                    </div>
+		      	  </div>
+			    </a>
+			</div>
+		  </div>
+    	  <!--------------------------------------------------------->
+     	  <div class="col-lg-4 col-md-6 col-sm-6 col-12 filtr-item">
+			<div class="item-holder">
+				<a class="text-white" href="https://vickycheng0606.github.io/portfolio/project-24/">
+				  <img src="../jennysu312.github.io/images/Summary-cover-1.jpg" alt="summary-web">
+			      <div class="item-hover flex">
+                    <div>
+                      <h2 class="mt-2">Summary Website</h2>
+                      <p class="mb-0 text-light">Photoshop</p>
+			      	  <p class="mb-0 text-light">Illustrator</p>
+			      	  <p class="mb-0 text-light">Adobe XD</p>
+                    </div>
+		      	  </div>
+			    </a>
+			</div>
+		  </div>
+    	  <!--------------------------------------------------------->
+    	  <div class="col-lg-4 col-md-6 col-sm-6 col-12 filtr-item">
+			<div class="item-holder">
+				<a class="text-white" href="https://vickycheng0606.github.io/portfolio/project-24/">
+				  <img src="../jennysu312.github.io/images/KWANI-cover-1.jpg" alt="kwani-web">
+			      <div class="item-hover flex">
+                    <div>
+                      <h2 class="mt-2">KWANI Website</h2>
+                      <p class="mb-0 text-light">Photoshop</p>
+			      	  <p class="mb-0 text-light">Illustrator</p>
+			      	  <p class="mb-0 text-light">Adobe XD</p>
+                    </div>
+		      	  </div>
+			    </a>
+			</div>
+		  </div>
+		  <!--------------------------------------------------------->
+		  <div class="col-lg-4 col-md-6 col-sm-6 col-12 filtr-item">
+			<div class="item-holder">
+				<a class="text-white" href="https://vickycheng0606.github.io/portfolio/project-24/">
+			    <img src="../jennysu312.github.io/images/Manuka-cover-1.jpg" alt="manuka-page">
+			      <div class="item-hover flex">
+                    <div>
+                      <h2 class="mt-2">Honey Product Page</h2>
+                      <p class="mb-0 text-light">Photoshop</p>
+			      	  <p class="mb-0 text-light">Illustrator</p>
+                    </div>
+		      	  </div>
+			    </a>
+			</div>
+		  </div>
+		  <!--------------------------------------------------------->
+		  <div class="col-lg-4 col-md-6 col-sm-6 col-12 filtr-item">
+			<div class="item-holder">
+				<a class="text-white" href="https://vickycheng0606.github.io/portfolio/project-24/">
+				  <img src="../jennysu312.github.io/images/Poster-cover-1.jpg" alt="manuka-page">
+			      <div class="item-hover flex">
+                    <div>
+                      <h2 class="mt-2">KWANI Website</h2>
+                      <p class="mb-0 text-light">Photoshop</p>
+			      	  <p class="mb-0 text-light">Illustrator</p>
+                    </div>
+		      	  </div>
+			    </a>
+			</div>
+		  </div>
+		  <!--------------------------------------------------------->
+    	
+     	</div>
+      </div>
+</div>
   </div>
 </section>
 <!--------------------------------------------------------->

@@ -149,10 +149,10 @@
 
   function toggleLogoImg(id) {
     var img = document.getElementById(id).src;
-    if (img.indexOf('logo-dark.svg') != -1) {
-      document.getElementById(id).src = '/images/logo.svg';
+    if (img.indexOf('logo-dark.png') != -1) {
+      document.getElementById(id).src = '/images/logo.png';
     } else {
-      document.getElementById(id).src = '/images/logo-dark.svg';
+      document.getElementById(id).src = '/images/logo-dark.png';
     }
   }
 

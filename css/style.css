@@ -881,6 +881,33 @@ input:checked + label span:last-child {
     position: relative;
 }
 
+.weblink {
+	position: relative;
+	padding-top: 40px;
+	padding-bottom: 65px;
+}
+
+.weblink-btn {
+	position: absolute;
+	left: 50%;
+	transform: translateX(-50%);
+	color: white;
+	background-color: #D49A88;
+	font-weight: 500;
+	text-align: center;
+	margin: 20px 0;
+	padding: 10px 20px;
+	border-radius: 30px;
+	transition: 0.3s;
+}
+
+.weblink-btn:hover {
+	text-decoration: none;
+	background-color: #f8e1d3;
+	color: #626262;	
+}
+
+
 .timeline {
   position: relative;
   width: 100%;
@@ -1806,7 +1833,7 @@ input:checked + label span:last-child {
 	padding-top: 50px;
 	padding-right: 0;
 	padding-left: 0;
-	padding-bottom: 50px;
+	padding-bottom: 60px;
 }
 
 #portfolio-content h4 {
@@ -1863,5 +1890,3 @@ input:checked + label span:last-child {
     position: absolute;
     width: 24px;
 }
-
-

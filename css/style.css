@@ -612,11 +612,11 @@ input:checked + label span:last-child {
 }
 
 .desktop-menu-logo {
-  height: 100%;
-  display: flex;
-  align-items: center;
-  position: absolute;
-  left: 1px;
+	height: 100%;
+	display: flex;
+	align-items: center;
+	position: absolute;
+	left: 6px;
 }
 
 .menu-item {
@@ -712,10 +712,10 @@ input:checked + label span:last-child {
 */
 
 .mobile-menu a {
-  text-decoration: none;
-  color: white;
-  font-size: 29px;
-  transition: color 1s;
+	text-decoration: none;
+	color: white;
+	font-size: 18px;
+	transition: color 1s;
 }
 
 .menu-item-transparent.mobile-menu-item a {
@@ -804,10 +804,10 @@ input:checked + label span:last-child {
 }
 
 .menu-slider ul {
-  list-style: none;
-  padding: 0 17px;
-  margin: 7px 0;
-  text-align: center;
+	list-style: none;
+	padding: 17px;
+	margin: 0;
+/*	text-align: left;*/
 }
 
 .menu-slider li {

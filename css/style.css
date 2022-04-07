@@ -79,7 +79,7 @@ body {
     box-shadow: 0 0 1px transparent;
     position: relative;
     padding-right: 2.5em;
-	z-index: 3;
+	z-index: 10;
 }
 
 .scroll-up {
@@ -92,7 +92,7 @@ body {
 	opacity: 0;
 	transform: translateY(100px);
 	transition: all .5s;
-	z-index: 93;
+	z-index: 999;
 }
 
 .hvr-icon-up:before {
@@ -1927,4 +1927,9 @@ input:checked + label span:last-child {
     opacity: 0.3;
     position: absolute;
     width: 24px;
+}
+
+.flex_container {
+	display: flex;
+	justify-content: center;
 }

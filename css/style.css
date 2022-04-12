@@ -849,13 +849,9 @@ input:checked + label span:last-child {
 	padding-bottom: 0px;
 }
 
-/*
-@media (max-width: 599px) {
-	.about-me {
-		padding-top: 100px;
-	}
+.about-me-holder {
+	margin-top: 40px;
 }
-*/
 
 .about-me-text h1 {
   position: relative;
@@ -876,11 +872,12 @@ input:checked + label span:last-child {
 }
 
 .about-me-images img {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  margin-bottom: 20px;
-  width: 90%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 20px;
+	border-radius: 50%;
+	width: 85%;
 }
 
 /* ========= Start Experience ======= */
@@ -1783,7 +1780,7 @@ input:checked + label span:last-child {
     margin-bottom: 30px;
     order: 2;
   }
-  .about-me-image {
+  .about-me-images {
     order: 1;
     margin-bottom: 30px;
   }

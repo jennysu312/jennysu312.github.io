@@ -843,11 +843,19 @@ input:checked + label span:last-child {
 
 .about-me {
 	background: #fff;
-	padding-top: 70px;
+	padding-top: 100px;
 	padding-right: 0px;
 	padding-left: 0px;
 	padding-bottom: 0px;
 }
+
+/*
+@media (max-width: 599px) {
+	.about-me {
+		padding-top: 100px;
+	}
+}
+*/
 
 .about-me-text h1 {
   position: relative;
@@ -1798,7 +1806,7 @@ input:checked + label span:last-child {
   }
 }
 
-@media (min-width: 601px) and (max-width: 991px) {
+@media (min-width: 601px) {
   .about-me {
     padding: 125px 0px 0px 0px;
   }
@@ -1806,7 +1814,7 @@ input:checked + label span:last-child {
 
 @media (max-width: 600px) {
   .about-me {
-    padding: 70px 0px 0px 0px;
+    padding: 100px 0px 0px 0px;
   }
 }
 
